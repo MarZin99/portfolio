@@ -5,6 +5,7 @@ body, html {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  background: linear-gradient(135deg, #010a12 77%, #030f1b 100%);
 }
 
 .navbar {

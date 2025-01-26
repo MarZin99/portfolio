@@ -10,6 +10,9 @@ const Navbar = () => {
       <Link href='/about' className={styles.link}>
         About
       </Link>
+      <Link href='/boxShowcase' className={styles.link}>
+        BoxShowcase
+      </Link>
     </div>
   );
 };

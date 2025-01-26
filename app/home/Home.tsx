@@ -1,10 +1,6 @@
-import Globe from '@/app/_components';
+import RenderModel from '../_components/RenderModel';
 
-export default function Home() {
-  return (
-    <div>
-      Home with globe
-      <Globe />
-    </div>
-  );
-}
+const Home = () => {
+  return <RenderModel />;
+};
+export default Home;
