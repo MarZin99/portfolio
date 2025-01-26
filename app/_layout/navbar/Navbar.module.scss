@@ -1,0 +1,12 @@
+@import '../../_styles/_globals';
+
+.navbar {
+  background: $primary-600;
+  color: white;
+  height: 56px;
+  box-shadow: 0 0 10px 0 $gray-900;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  align-items: center;
+}
