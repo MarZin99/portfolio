@@ -9,4 +9,12 @@
   border-bottom-right-radius: 5px;
   display: flex;
   align-items: center;
+  gap: 10px;
+  padding-inline: 30px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  display: block;
 }
