@@ -1,7 +1,6 @@
 'use client';
 
 import RenderModel from '../_components/RenderModel';
-// import { OrbitControls } from '@react-three/drei';
 import Box from '@/app/_components/Box/Box';
 import React from 'react';
 
@@ -16,7 +15,7 @@ const BoxShowcase = () => {
         intensity={280}
         distance={10}
       />
-      {/*<OrbitControls />*/}
+    
       <Box size={[1, 1, 1]} castShadow />
     </RenderModel>
   );
