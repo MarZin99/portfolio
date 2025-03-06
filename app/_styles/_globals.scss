@@ -1,7 +1,7 @@
-@import './media';
-@import './colors';
+@forward './media';
+@forward './colors';
 
-body {
+.body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -9,5 +9,3 @@ body {
   width: 100vw;
   overflow: hidden;
 }
-
-

@@ -15,7 +15,6 @@ const BoxShowcase = () => {
         intensity={280}
         distance={10}
       />
-    
       <Box size={[1, 1, 1]} castShadow />
     </RenderModel>
   );

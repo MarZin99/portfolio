@@ -1,4 +1,4 @@
-import '@/app/_styles/_globals.scss';
+import '../app/_styles/_globals.scss';
 import Navbar from '@/app/_layout/navbar/Navbar';
 
 export default function RootLayout({
@@ -8,7 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body>
+      <body className='body'>
         <Navbar />
         {children}
       </body>
